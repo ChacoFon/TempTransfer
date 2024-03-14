@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EditTextProject</string>
+    <string name="app_name">TempTransfer</string>
     <string name="usernamehint">輸入攝氏溫度</string>
     <string name="send_button">轉換</string>
     <string name="show">顯示結果</string>

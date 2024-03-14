@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void send_button(View view){
         EditText getNum = (EditText) findViewById(R.id.editTextNumber);
-        int tmp = Integer.parseInt(getNum.getText().toString());
+        double tmp = Double.parseDouble(getNum.getText().toString());
         double result = (9.0*tmp)/5.0+32.0;
 
         TextView textView2 = (TextView) findViewById(R.id.textView2);
